@@ -51,7 +51,7 @@
                          '    box-shadow: 0px -1px 2px #d4d4d4;';
         elem.innerHTML = '<p style="margin: 0;text-align: center;">' +
                             'KitleOyun.com uses cookies to make the site simpler. ' +
-                            '<a href="/cookies/index.html">Find out more about cookies</a>' +
+                            '<a href="/cookies">Find out more about cookies</a>' +
                          '</p>';
 
         var footer = document.getElementsByClassName('footer')[0];

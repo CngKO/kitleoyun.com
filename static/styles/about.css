@@ -1,0 +1,318 @@
+body {
+    font-family: Cera, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 1040px;
+}
+
+#about section,
+#support-page section {
+    background: #fff;
+}
+
+#about section.blue {
+    background: #f2f5f7;
+}
+
+#about .h1 {
+    text-transform: unset;
+}
+
+#about .row {
+    background-color: white;
+    margin: unset;
+}
+
+h1.h1 {
+    font-family: 'CeraBold', sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #414e5d;
+    text-align: center;
+}
+
+.slash {
+    margin-right: 15px;
+    vertical-align: baseline;
+    width: 25px;
+}
+
+h2 {
+    color: #414e5d;
+    font-family: "CeraBold", sans-serif;
+    font-size: 51px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.mission {
+    height: 209px;
+    background-color: #e9a218;
+}
+
+.mission h3 {
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: bold;
+    font-size: 14.58px;
+    color: #8e5e00;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+
+.mission h1 {
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: normal;
+    font-size: 35.42px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.btn:active {
+    position: relative;
+    margin-top: 2px;
+    border-bottom: 1px solid #439F0B;
+}
+
+.head-game {
+    height: 618px;
+    background-position: bottom !important;
+}
+
+.head-game.about,
+.head-game.contact {
+    background: #000 url(../images/about_head.jpg) top;
+    background-size: cover;
+    max-height: 740px;
+}
+
+.section-mission {
+    background-color: unset !important;
+    color: white;
+    position: relative;
+    top: 40%;
+}
+
+.section-mission h3 {
+    margin: 0 0 12px;
+}
+
+.section-mission p {
+    font-family: Cera, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.row {
+    background-color: white;
+    margin: unset;
+}
+
+.btn-default {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 19px 46px;
+
+}
+
+#unique {
+    padding-top: 20px;
+}
+
+.page-about h1,
+.page-about h2 {
+    letter-spacing: 0px;
+}
+
+.h1#mission {
+    font-family: 'CeraBold', sans-serif;
+    font-size: 54px;
+    color: white;
+    text-align: left;
+    margin-top: 21px;
+}
+
+.green {
+    color: #28d222;
+}
+
+.container.tight {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.culture-text {
+    width: 900px;
+    font-size: 23px;
+}
+
+.blue {
+    background-color: #f2f5f7;
+}
+
+.games {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.games img {
+    width: 160px;
+}
+
+.btn-store img {
+    width: 130px;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+}
+
+.text-center-main {
+    color: #001722;
+    font-family: Cera;
+    font-size: 21px;
+    font-size-adjust: 0.6;
+    letter-spacing: -0.5px;
+    line-height: 1.7;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.middle-text {
+    font-size: 23px;
+}
+
+.btn-default {
+    background-color: #28d223;
+    border-color: -moz-use-text-color -moz-use-text-color #1b8e17;
+    border-radius: 40px;
+    border-style: none none solid;
+    color: white;
+    font-family: CeraBold, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 5px solid #21ad1c;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        position: relative;
+    }
+
+    .slash {
+        width: 21px;
+    }
+
+    .head-game.about {
+        max-height: 300px;
+    }
+
+    .culture-text {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .section-mission {
+        top: 50px;
+    }
+
+    .section-mission p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .h1#mission {
+        text-align: center;
+        font-size: 40px;
+
+    }
+
+    h2 {
+        padding: 0px 15px;
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .blue {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+        padding-bottom: 70px;
+    }
+
+    #unique {
+        font-size: 30px;
+    }
+
+    #unique .slash {
+        width: 20px;
+    }
+
+    .links {
+        position: relative;
+        padding: 30px 0px;
+    }
+
+    .links img {
+        width: 130px;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+
+    .text-center_main {
+        font-size: 19px !important;
+        padding: 0
+    }
+
+    .text-center_main br {
+        display: none;
+    }
+
+    .culture-text br {
+        display: none;
+    }
+
+    .btn-default {
+        margin-top: 20px;
+    }
+
+    .blue {
+        padding: 10px 10px 40px 10px;
+    }
+
+    .blue h2 {
+        text-align: left;
+        padding: 0;
+    }
+
+    .blue .slash {
+        display: none;
+    }
+
+    .middle_text {
+        font-size: 19px;
+    }
+
+    .games-section {
+        padding: 10px;
+    }
+
+    .games-section h2 .slash {
+        display: none;
+    }
+
+    .games-section h2 {
+        text-align: left;
+        padding: 0;
+    }
+}

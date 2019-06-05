@@ -816,13 +816,6 @@ hr {
     background-size: cover;
 }
 
-.head-game.about,
-.head-game.contact {
-    background: #000 url(../images/about_head.png) top;
-    background-size: cover;
-    max-height: 740px;
-}
-
 .head-game.support {
     background: #000 url(../images/support_head.jpg) top;
     background-size: cover;

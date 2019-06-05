@@ -84,8 +84,7 @@ h2 {
     background-position: bottom !important;
 }
 
-.head-game.about,
-.head-game.contact {
+.head-game.about {
     background: #000 url(../images/about_head.jpg) top;
     background-size: cover;
     max-height: 740px;

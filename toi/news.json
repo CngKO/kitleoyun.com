@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "date" : "2019-10-22T05:03",
+        "url" : "kitleoyun.com/news/1.html",
+        "img_url" : "kitleoyun.com/toi/images/news_1.png",
+        "title" : "Test 1",
+        "text" : "This is a text for news item 1"
+    },
+    {
+        "id" : 0,
+        "date" : "2019-10-22T05:03",
+        "url" : "kitleoyun.com/news/0.html",
+        "img_url" : "kitleoyun.com/toi/images/news_0.png",
+        "title" : "Test 0",
+        "text" : "This is a text for news item 0"
+    }
+]

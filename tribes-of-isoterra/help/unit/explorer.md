@@ -1,6 +1,8 @@
 ---
 title: Explorer Unit - Tribes of Isoterra - KitleOyun
-layout: toi_help
+layout: toi_help_unit
+unit_type: Explorer
+unit_attack: 0
+unit_defense: 1
+unit_movement: 5
 ---
-
-<h1 class="h1">Explorer Unit</h1>

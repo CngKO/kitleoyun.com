@@ -1,6 +1,8 @@
 ---
 title: Guard Unit - Tribes of Isoterra - KitleOyun
-layout: toi_help
+layout: toi_help_unit
+unit_type: Guard
+unit_attack: 1
+unit_defense: 3
+unit_movement: 1
 ---
-
-<h1 class="h1">Guard Unit</h1>

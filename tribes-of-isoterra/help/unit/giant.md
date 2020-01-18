@@ -1,6 +1,8 @@
 ---
 title: Giant Unit - Tribes of Isoterra - KitleOyun
-layout: toi_help
+layout: toi_help_unit
+unit_type: Giant
+unit_attack: 5
+unit_defense: 4
+unit_movement: 1
 ---
-
-<h1 class="h1">Giant Unit</h1>

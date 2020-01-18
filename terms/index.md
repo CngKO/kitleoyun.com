@@ -1,6 +1,7 @@
 ---
 title: Terms - KitleOyun
 layout: default
+body_class: page-terms
 ---
 
 <div class="page-caption">

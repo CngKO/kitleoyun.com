@@ -1,6 +1,7 @@
 ---
 title: Tribes of Isoterra - KitleOyun
 layout: default
+body_class: page-game
 ---
 
 <header class="head-game tribes-of-isoterra"></header>

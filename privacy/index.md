@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy - KitleOyun
 layout: default
+body_class: page-privacy
 ---
 
 <div class="page-caption">

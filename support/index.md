@@ -1,6 +1,8 @@
 ---
 title: Support - KitleOyun
 layout: default
+body_class: page-about
+body_id: support-page
 ---
 
 <header class="head-game support">

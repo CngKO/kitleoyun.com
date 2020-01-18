@@ -1,6 +1,7 @@
 ---
 title: KitleOyun
 layout: default
+body_class: page-home
 ---
 
 <div class="head-slider-wrapper">

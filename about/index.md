@@ -1,6 +1,8 @@
 ---
 title: About - KitleOyun
 layout: default
+body_class: page-about
+body_id: about
 ---
 
 <header class="head-game about">

@@ -1,6 +1,7 @@
 ---
 title: Contact - KitleOyun
 layout: default
+body_class: page-about
 ---
 
 <div class="page-caption">

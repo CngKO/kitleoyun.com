@@ -19,21 +19,7 @@
 {% endif %}
 </head>
 
-{% if page.url == '/games/' or page.url == '/contact/' %}
-<body class="page-about" ontouchstart="">
-{% elsif page.url == '/support/' %}
-<body class="page-about" id="support-page" ontouchstart="">
-{% elsif page.url == '/about/' %}
-<body class="page-about" id="about" ontouchstart="">
-{% elsif page.url == '/terms/' %}
-<body class="page-terms" ontouchstart="">
-{% elsif page.url == '/cookies/' or page.url == '/privacy/' or page.url == '/privacy/eu.html' %}
-<body class="page-privacy" ontouchstart="">
-{% elsif page.url == '/tribes-of-isoterra/' %}
-<body class="page-game" ontouchstart="">
-{% else %}
-<body class="page-home" ontouchstart="">
-{% endif %}
+<body class="{{ page.body_class }}" id="{{ page.body_id }}">
     <!-- Navigation-->
     <nav class="navbar navbar-default navbar-fixed-top" id="main-nav" role="navigation">
         <div class="container">

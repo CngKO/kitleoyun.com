@@ -1,6 +1,7 @@
 ---
 title: EU Privacy Notice - KitleOyun
 layout: default
+body_class: page-privacy
 ---
 
 <div class="page-caption">

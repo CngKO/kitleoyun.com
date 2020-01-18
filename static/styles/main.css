@@ -2,42 +2,42 @@
     font-family: Myriad;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Myriad-Regular.otf) format("opentype");
+    src: url(/static/fonts/Myriad-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: Myriad;
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/Myriad-Bold.otf) format("opentype");
+    src: url(/static/fonts/Myriad-Bold.otf) format("opentype");
 }
 
 @font-face {
     font-family: Myriad;
     font-style: normal;
     font-weight: 600;
-    src: url(../fonts/Myriad-Semibold.otf) format("opentype");
+    src: url(/static/fonts/Myriad-Semibold.otf) format("opentype");
 }
 
 @font-face {
     font-family: Cera;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Cera-Regular.ttf) format("truetype");
+    src: url(/static/fonts/Cera-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: CeraBold;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Cera-Bold.ttf) format("truetype");
+    src: url(/static/fonts/Cera-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: CeraLight;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Cera-Light.ttf) format("truetype");
+    src: url(/static/fonts/Cera-Light.ttf) format("truetype");
 }
 
 body {
@@ -103,6 +103,12 @@ body.page-home {
 
 .page-caption .caption {
     margin: 0;
+}
+
+.page-privacy td,
+.page-privacy th {
+    padding: 4px 8px;
+    border: 1px solid #dadada;
 }
 
 .bg-accent {
@@ -335,12 +341,10 @@ hr {
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-    @media {
-        #main-nav .navbar-nav a {
+    #main-nav .navbar-nav a {
 
-            letter-spacing: -1px;
+        letter-spacing: -1px;
 
-        }
     }
 }
 
@@ -466,12 +470,12 @@ hr {
 }
 
 #home-slider .slide-tribes-of-isoterra {
-    background: url(../images/slide-tribes-of-isoterra.png) no-repeat top;
+    background: url(/static/images/slide-tribes-of-isoterra.png) no-repeat top;
     background-size: cover;
 }
 
 #home-slider .slide-tribes-of-isoterra-2 {
-    background: url(../images/slide-tribes-of-isoterra.png) no-repeat top;
+    background: url(/static/images/slide-tribes-of-isoterra.png) no-repeat top;
     background-size: cover;
 }
 
@@ -487,14 +491,14 @@ hr {
     }
 
     #home-slider .slide-tribes-of-isoterra, #home-slider .slide-tribes-of-isoterra-2 {
-        background: url(../images/slide-tribes-of-isoterra.png) no-repeat top;
+        background: url(/static/images/slide-tribes-of-isoterra.png) no-repeat top;
         background-size: cover;
     }
 }
 
 @media only screen and (max-width:668px) {
     #home-slider .slide-tribes-of-isoterra, #home-slider .slide-tribes-of-isoterra-2 {
-        background: url(../images/slide-tribes-of-isoterra.png) no-repeat top;
+        background: url(/static/images/slide-tribes-of-isoterra.png) no-repeat top;
         background-size: cover;
     }
 }
@@ -643,12 +647,12 @@ hr {
 }
 
 .section-featured .f-help {
-    background: #656a71 url(../images/bg_featured_support.jpg) no-repeat 50%;
+    background: #656a71 url(/static/images/bg_featured_support.jpg) no-repeat 50%;
     background-size: cover;
 }
 
 .section-featured .f-about {
-    background: #40433f url(../images/bg_featured_about.jpg) no-repeat 0 100%;
+    background: #40433f url(/static/images/bg_featured_about.jpg) no-repeat 0 100%;
     background-size: cover
 }
 
@@ -709,12 +713,12 @@ hr {
 }
 
 .section-games .main-banner.tribes-of-isoterra {
-    background: url(../images/banner-tribes-of-isoterra.png) top;
+    background: url(/static/images/banner-tribes-of-isoterra.png) top;
     background-size: cover;
 }
 
 .section-games .main-banner.tribes-of-isoterra-2 {
-    background: url(../images/banner-tribes-of-isoterra.jpg) top;
+    background: url(/static/images/banner-tribes-of-isoterra.jpg) top;
     background-size: cover;
 }
 
@@ -812,12 +816,12 @@ hr {
 }
 
 .head-game.tribes-of-isoterra {
-    background: #56d2e6 url(../images/banner-tribes-of-isoterra.png) top;
+    background: #56d2e6 url(/static/images/banner-tribes-of-isoterra.png) top;
     background-size: cover;
 }
 
 .head-game.support {
-    background: #000 url(../images/support_head.jpg) top;
+    background: #000 url(/static/images/support_head.jpg) top;
     background-size: cover;
     max-height: 640px;
 }

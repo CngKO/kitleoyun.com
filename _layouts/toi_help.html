@@ -3,8 +3,64 @@ layout: default
 body_class: page-help
 ---
 
+<link href="/static/styles/help.css" rel="stylesheet" />
+
 <div class="page-caption">
 	<h2 class="caption">Tribes of Isoterra - Help</h2>
 </div>
+<!-- Navigation-->
+<nav class="navbar navbar-default" id="help-nav" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" data-target="#navbar-help-collapse" data-toggle="collapse"
+				type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+					class="icon-bar"></span><span class="icon-bar"></span></button>
+			<a class="navbar-brand" href="/tribes-of-isoterra/help"><img src="/static/images/tribes-of-isoterra-logo.svg" /></a>
+		</div>
+		<nav class="collapse navbar-collapse" id="navbar-help-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				{% if page.url == '/tribes-of-isoterra/help/unit/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/unit">Unit</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/unit">Unit</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/resource/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/resource">Resource</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/resource">Resource</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/building/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/building">Building</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/building">Building</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/ability/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/ability">Ability</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/ability">Ability</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/technology/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/technology">Technology</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/technology">Technology</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/wonder/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/wonder">Wonder</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/wonder">Wonder</a></li>
+				{% endif %}
+				{% if page.url == '/tribes-of-isoterra/help/action/' %}
+				  <li class="active"><a href="/tribes-of-isoterra/help/action">Action</a></li>
+				{% else %}
+				  <li><a href="/tribes-of-isoterra/help/action">Action</a></li>
+				{% endif %}
+			</ul>
+		</nav>
+	</div>
+</nav>
 
-{{ content }}
+<section>
+	<div class="container tight bg-accent top-space-2x bottom-space-2x">
+		{{ content }}
+	</div>
+</section>

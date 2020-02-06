@@ -1,30 +1,197 @@
 ---
 layout: toi_help
 body_class: page-help
+help_category: unit
 ---
 
-<h1 class="h1">{{ page.unit_type }} Unit</h1>
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-4">
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				{% if page.unit_type == 'Settler' %}
+					<a class="nav-link active" href="/tribes-of-isoterra/help/unit/settler.html">Settler</a>
+				{% else %}
+					<a class="nav-link" href="/tribes-of-isoterra/help/unit/settler.html">Settler</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Warrior' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/warrior.html">Warrior</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/warrior.html">Warrior</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Swordsman' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/swordsman.html">Swordsman</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/swordsman.html">Swordsman</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Archer' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/archer.html">Archer</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/archer.html">Archer</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Rider' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/rider.html">Rider</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/rider.html">Rider</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Explorer' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/explorer.html">Explorer</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/explorer.html">Explorer</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Giant' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/giant.html">Giant</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/giant.html">Giant</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Catapult' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/catapult.html">Catapult</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/catapult.html">Catapult</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Transport' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/transport.html">Transport</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/transport.html">Transport</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Ship' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/ship.html">Ship</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/ship.html">Ship</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Warship' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/warship.html">Warship</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/warship.html">Warship</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Treasure Ship' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/treasure_ship.html">Treasure Ship</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/treasure_ship.html">Treasure Ship</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Treasure Wagon' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/treasure_wagon.html">Treasure Wagon</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/treasure_wagon.html">Treasure Wagon</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Horse Archer' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/horse_archer.html">Horse Archer</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/horse_archer.html">Horse Archer</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Guard' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/guard.html">Guard</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/guard.html">Guard</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Hoplite' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/hoplite.html">Hoplite</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/hoplite.html">Hoplite</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Lancer' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/lancer.html">Lancer</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/lancer.html">Lancer</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Spearman' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/spearman.html">Spearman</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/spearman.html">Spearman</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Healer' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/healer.html">Healer</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/healer.html">Healer</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Tax Collector' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/tax_collector.html">Tax Collector</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/tax_collector.html">Tax Collector</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Ballista' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/ballista.html">Ballista</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/ballista.html">Ballista</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.unit_type == 'Builder' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/unit/builder.html">Builder</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/unit/builder.html">Builder</a>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		{% if page.url != '/tribes-of-isoterra/help/unit/' %}
+		<h1 class="h1">{{ page.unit_type }} Unit</h1>
 
-{{ content }}
-
-<table>
-	<thead>
-		<tr>
-			<th>Unit Statistics</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Attack</th>
-			<td>{{ page.unit_attack }}</td>
-		</tr>
-		<tr>
-			<th>Defense</th>
-			<td>{{ page.unit_defense }}</td>
-		</tr>
-		<tr>
-			<th>Attack</th>
-			<td>{{ page.unit_movement }}</td>
-		</tr>
-	</tbody>
-</table>
+		<table>
+			<thead>
+				<tr>
+					<th>Unit Statistics</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Attack</th>
+					<td>{{ page.unit_attack }}</td>
+				</tr>
+				<tr>
+					<th>Defense</th>
+					<td>{{ page.unit_defense }}</td>
+				</tr>
+				<tr>
+					<th>Movement</th>
+					<td>{{ page.unit_movement }}</td>
+				</tr>
+			</tbody>
+		</table>
+		{% endif %}
+		
+		{{ content }}
+	</div>
+	<div class="col-sm-1"></div>
+  </div>

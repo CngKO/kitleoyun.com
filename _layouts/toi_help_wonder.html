@@ -1,0 +1,66 @@
+---
+layout: toi_help
+body_class: page-help
+help_category: wonder
+---
+
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-4">
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				{% if page.wonder_type == 'Gardens of Sargon' %}
+					<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/gardens_of_sargon.html">Gardens of Sargon</a>
+				{% else %}
+					<a class="nav-link" href="/tribes-of-isoterra/help/wonder/gardens_of_sargon.html">Gardens of Sargon</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Imperial Barracks' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/imperial_barracks.html">Imperial Barracks</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/imperial_barracks.html">Imperial Barracks</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Temple of Titans' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/temple_of_titans.html">Temple of Titans</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/temple_of_titans.html">Temple of Titans</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Hall of Wisemen' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/hall_of_wisemen.html">Hall of Wisemen</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/hall_of_wisemen.html">Hall of Wisemen</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Sacred Hospital' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/sacred_hospital.html">Sacred Hospital</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/sacred_hospital.html">Sacred Hospital</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Grand Lighthouse' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/grand_lighthouse.html">Grand Lighthouse</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/grand_lighthouse.html">Grand Lighthouse</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.wonder_type == 'Merchants Agora' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/wonder/merchants_agora.html">Merchant's Agora</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/wonder/merchants_agora.html">Merchant's Agora</a>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		{{ content }}
+	</div>
+	<div class="col-sm-1"></div>
+  </div>

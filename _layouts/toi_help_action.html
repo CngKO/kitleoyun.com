@@ -1,0 +1,248 @@
+---
+layout: toi_help
+body_class: page-help
+help_category: action
+---
+
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-4">
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				{% if page.action_type == 'Move' %}
+					<a class="nav-link active" href="/tribes-of-isoterra/help/action/move.html">Move</a>
+				{% else %}
+					<a class="nav-link" href="/tribes-of-isoterra/help/action/move.html">Move</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Attack' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/attack.html">Attack</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/attack.html">Attack</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Settle' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/settle.html">Settle</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/settle.html">Settle</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Discover' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/discover.html">Discover</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/discover.html">Discover</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Capture' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/capture.html">Capture</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/capture.html">Capture</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Raze' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/raze.html">Raze</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/raze.html">Raze</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Upgrade' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/upgrade.html">Upgrade</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/upgrade.html">Upgrade</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Recover' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/recover.html">Recover</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/recover.html">Recover</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Heal' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/heal.html">Heal</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/heal.html">Heal</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Convert' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/convert.html">Convert</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/convert.html">Convert</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Collect Tax' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/collect_tax.html">Collect Tax</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/collect_tax.html">Collect Tax</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Disband' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/disband.html">Disband</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/disband.html">Disband</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Make Capital' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/make_capital.html">Make Capital</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/make_capital.html">Make Capital</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Move Capital' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/move_capital.html">Move Capital</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/move_capital.html">Move Capital</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Research' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/research.html">Research</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/research.html">Research</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Fish' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/fish.html">Fish</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/fish.html">Fish</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Hunt' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/hunt.html">Hunt</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/hunt.html">Hunt</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Gather' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/gather.html">Gather</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/gather.html">Gather</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Hunt Whale' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/hunt_whale.html">Hunt Whale</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/hunt_whale.html">Hunt Whale</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Clear Forest' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/clear_forest.html">Clear Forest</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/clear_forest.html">Clear Forest</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Grow Forest' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/grow_forest.html">Grow Forest</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/grow_forest.html">Grow Forest</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Raise Flag' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/raise_flag.html">Raise Flag</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/raise_flag.html">Raise Flag</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Cancel Wonder' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/cancel_wonder.html">Cancel Wonder</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/cancel_wonder.html">Cancel Wonder</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Complete Wonder' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/complete_wonder.html">Complete Wonder</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/complete_wonder.html">Complete Wonder</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Destroy' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/destroy.html">Destroy</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/destroy.html">Destroy</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Propose Peace' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/propose_peace.html">Propose Peace</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/propose_peace.html">Propose Peace</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Propose Pact' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/propose_pact.html">Propose Pact</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/propose_pact.html">Propose Pact</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Propose Alliance' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/propose_alliance.html">Propose Alliance</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/propose_alliance.html">Propose Alliance</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Propose Trade' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/propose_trade.html">Propose Trade</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/propose_trade.html">Propose Trade</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Accept Peace' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/accept_peace.html">Accept Peace</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/accept_peace.html">Accept Peace</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Accept Pact' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/accept_pact.html">Accept Pact</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/accept_pact.html">Accept Pact</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Accept Alliance' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/accept_alliance.html">Accept Alliance</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/accept_alliance.html">Accept Alliance</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.action_type == 'Accept Trade' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/action/accept_trade.html">Accept Trade</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/action/accept_trade.html">Accept Trade</a>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		{{ content }}
+	</div>
+	<div class="col-sm-1"></div>
+  </div>

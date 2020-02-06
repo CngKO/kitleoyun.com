@@ -1,0 +1,59 @@
+---
+layout: toi_help
+body_class: page-help
+help_category: resource
+---
+
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-4">
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				{% if page.resource_type == 'Fish' %}
+					<a class="nav-link active" href="/tribes-of-isoterra/help/resource/fish.html">Fish</a>
+				{% else %}
+					<a class="nav-link" href="/tribes-of-isoterra/help/resource/fish.html">Fish</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.resource_type == 'Whale' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/resource/whale.html">Whale</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/resource/whale.html">Whale</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.resource_type == 'Game' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/resource/game.html">Game</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/resource/game.html">Game</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.resource_type == 'Berries' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/resource/berries.html">Berries</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/resource/berries.html">Berries</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.resource_type == 'Grain' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/resource/grain.html">Grain</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/resource/grain.html">Grain</a>
+				{% endif %}
+			</li>
+			<li class="nav-item">
+				{% if page.resource_type == 'Minerals' %}
+				<a class="nav-link active" href="/tribes-of-isoterra/help/resource/minerals.html">Minerals</a>
+				{% else %}
+				<a class="nav-link" href="/tribes-of-isoterra/help/resource/minerals.html">Minerals</a>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		{{ content }}
+	</div>
+	<div class="col-sm-1"></div>
+  </div>

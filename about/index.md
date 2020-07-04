@@ -24,7 +24,7 @@ body_id: about
 					started off with design and development of several strategy games targeted<br>
 					for mobile devices. We are focusing on free-to-play games for strategy<br>
 					lovers out there. Our first game, Tribes of Isoterra will initially be<br>
-					released on Google Play platform in summer 2019.<br>
+					released on Google Play platform in summer 2020.<br>
 					<br>
 					<div style='height:70px;'>
 						<a href="/contact" class="btn btn-default">CONTACT</a>

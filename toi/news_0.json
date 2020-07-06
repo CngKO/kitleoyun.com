@@ -4,6 +4,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/11.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_11.png",
+        "bgc" : "#ffdee0",
         "title" : "Test 11",
         "text" : "This is a text for news item 11"
     },
@@ -12,6 +13,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/10.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_10.png",
+        "bgc" : "#ffdbff",
         "title" : "Test 10",
         "text" : "This is a text for news item 10"
     },
@@ -20,6 +22,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/9.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_9.png",
+        "bgc" : "#d7f1fc",
         "title" : "Test 9",
         "text" : "This is a text for news item 9"
     },
@@ -28,6 +31,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/8.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_8.png",
+        "bgc" : "#d7fcf7",
         "title" : "Test 8",
         "text" : "This is a text for news item 8"
     },
@@ -36,6 +40,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/7.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_7.png",
+        "bgc" : "#d9fcdb",
         "title" : "Test 7",
         "text" : "This is a text for news item 7"
     },
@@ -44,6 +49,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/6.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_6.png",
+        "bgc" : "#ecfad7",
         "title" : "Test 6",
         "text" : "This is a text for news item 6"
     },
@@ -52,6 +58,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/5.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_5.png",
+        "bgc" : "#f6fad4",
         "title" : "Test 5",
         "text" : "This is a text for news item 5"
     },
@@ -60,6 +67,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/4.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_4.png",
+        "bgc" : "#fcf6dc",
         "title" : "Test 4",
         "text" : "This is a text for news item 4"
     },
@@ -68,6 +76,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/3.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_3.png",
+        "bgc" : "#fcebde",
         "title" : "Test 3",
         "text" : "This is a text for news item 3"
     },
@@ -76,6 +85,7 @@
         "date" : "2019-10-22T05:03",
         "url" : "http://kitleoyun.com/news/2.html",
         "image_url" : "http://kitleoyun.com/toi/images/news_2.png",
+        "bgc" : "#ffe6e3",
         "title" : "Test 2",
         "text" : "This is a text for news item 2"
     }

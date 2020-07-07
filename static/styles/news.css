@@ -1,0 +1,240 @@
+.text-small {
+    font-size: 0.875rem;
+}
+
+.text-medium {
+    font-size: 1.25rem;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.news-item {
+    position: relative;
+    width: 100%;
+    min-height: 122px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.news-item>* {
+    flex: 1 1 auto
+}
+
+.news-item__img {
+    position: relative;
+    min-width: 80px;
+    max-width: 160px;
+    overflow: hidden;
+    flex: 25% 0 0
+}
+
+.news-item__img--margin-left {
+    margin-right: 5%
+}
+
+.news-item__img--margin-right {
+    margin-left: 5%
+}
+
+.news-item__img img {
+    width: 100%
+}
+
+.news-item__img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 171, 230, 0.4);
+    display: none;
+    z-index: 15
+}
+
+.news-item__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #eb0036
+}
+
+@media (max-width: 639px) {
+    .news-item__label {
+        font-size: 0.625rem;
+        margin-bottom: 0.25rem
+    }
+}
+
+.news-item__title {
+    margin-bottom: 0.3125rem;
+    font-family: -apple-system, ".SFNSText-Regular", BlinkMacSystemFont, "San Francisco", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Lucida Grande", sans-serif
+}
+
+.news-item__content {
+    padding: 0.9375rem 0.95rem
+}
+
+.news-item__link {
+    color: #262626;
+    text-decoration: none
+}
+
+.news-item__link.read-state {
+    color: #666
+}
+
+.news-item__link::before {
+    content: '';
+    position: absolute;
+    z-index: 25;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.news-item:not(.disable-link-hover):hover .news-item__title {
+    color: #0a6cff
+}
+
+.news-item:not(.disable-link-hover):hover .news-item__img::before {
+    display: block
+}
+
+.news-item__title {
+    font-family: "ArgumentumBold", "Franklin Gothic Medium", "Arial Narrow Bold", "Helvetica Neue", Arial, sans-serif
+}
+
+@media (max-width: 639px) {
+    .news-item__title {
+        font-family: -apple-system, ".SFNSText-Regular", BlinkMacSystemFont, "San Francisco", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Lucida Grande", sans-serif;
+        font-size: 0.875rem;
+        font-weight: bold;
+        line-height: 1.5
+    }
+}
+
+.card-metadata {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    color: gray
+}
+
+.card-metadata .symbol-text {
+    margin-right: 1rem
+}
+
+.card-metadata .symbol-text:last-child {
+    margin-right: 0
+}
+
+@media (max-width: 639px) {
+    .card-metadata .symbol-text {
+        font-size: 0.625rem
+    }
+}
+
+.card-metadata>.hide-icon {
+    display: -ms-grid;
+    display: grid;
+    grid-template: auto/auto;
+    grid-gap: 0.25rem
+}
+
+.card-metadata>.hide-icon i {
+    display: none
+}
+
+.card-metadata>div.hide-icon i {
+    display: none
+}
+
+.card-metadata>div:only-child.hide-icon {
+    display: -ms-grid;
+    display: grid;
+    grid-template: auto/auto;
+    grid-gap: 0.25rem
+}
+
+.symbol-text--small {
+    font-size: 0.875rem;
+}
+
+.symbol-text {
+    display: -ms-grid;
+    display: grid;
+    grid-template: auto/repeat(2, max-content);
+    grid-gap: 0.25rem;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.symbol-text--small .symbol {
+    font-size: 0.625rem;
+}
+
+svg:not(:root) {
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.symbol {
+    fill: currentColor;
+    position: relative;
+    top: -1px;
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+}
+
+.amp-article-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 2rem;
+    padding: 0 15px 1rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.i-amphtml-layout-size-defined {
+    overflow: hidden!important;
+}
+
+.i-amphtml-layout-responsive, [layout=responsive][width][height]:not(.i-amphtml-layout-responsive), [width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive), [width][height][sizes]:not([layout]):not(.i-amphtml-layout-responsive) {
+    display: block;
+    position: relative;
+}
+
+i-amphtml-sizer {
+    display: block!important;
+}
+
+.i-amphtml-layout-size-defined .i-amphtml-fill-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.i-amphtml-replaced-content, .i-amphtml-screen-reader {
+    padding: 0!important;
+    border: none!important;
+}
+
+.i-amphtml-blurry-placeholder, .i-amphtml-fill-content {
+    display: block;
+    height: 0;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 0;
+    margin: auto;
+}

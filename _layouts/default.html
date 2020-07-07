@@ -14,9 +14,12 @@
     <link href="/static/libs/css/slick-theme.css" rel="stylesheet" />
     <link href="/static/libs/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/static/styles/main.css" rel="stylesheet" />
-{% if page.url == '/about/' %}
-    <link href="/static/styles/about.css" rel="stylesheet" />
-{% endif %}
+    {% if page.url == '/about/' %}
+        <link href="/static/styles/about.css" rel="stylesheet" />
+    {% endif %}
+    {% if page.url == '/news/' %}
+        <link href="/static/styles/news.css" rel="stylesheet" />
+    {% endif %}
 </head>
 
 <body class="{{ page.body_class }}" id="{{ page.body_id }}">
@@ -35,6 +38,11 @@
                       <li class="active"><a href="/games">Games</a></li>
                     {% else %}
                       <li><a href="/games">Games</a></li>
+                    {% endif %}
+                    {% if page.url == '/news/' or page.page_category == "news-item" %}
+                      <li class="active"><a href="/news">News</a></li>
+                    {% else %}
+                      <li><a href="/news">News</a></li>
                     {% endif %}
                     {% if page.url == '/support/' %}
                       <li class="active"><a href="/support">Support</a></li>

@@ -1,0 +1,32 @@
+---
+layout: default
+body_class: page-news
+page_category: news-item
+---
+
+<link href="/static/styles/news.css" rel="stylesheet" />
+
+<div class="page-caption">
+	<h2 class="caption">News</h2>
+</div>
+
+<div class="container tight bg-accent top-space-2x bottom-space-2x">
+	<article class="amp-article">
+		<header>
+			<div class="amp-article-header">
+				<h1 class="type-headline instapaper_title news-list--type-headline">{{ page.news_header }}</h1>
+				<time class="text-xsmall" datetime="page.news_time">{{ page.news_time }}</time>
+			</div>
+			<h2 class="news-deck type-subheader">{{ page.news_subheader }}</h2>
+		</header>
+		<section class="article-body typography-format">
+			{{ content }}
+			<amp-img layout="responsive" width="1283" height="559" src="news_item.png" alt=""
+				class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-layout"
+				i-amphtml-layout="responsive" style="--loader-delay-offset:223ms !important;">
+				<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 56.2412%;"></i-amphtml-sizer>
+				<img decoding="async" alt="" src="news_item.png" class="i-amphtml-fill-content i-amphtml-replaced-content">
+			</amp-img>
+		</section>
+	</article>
+</div>

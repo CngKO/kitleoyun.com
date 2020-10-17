@@ -6,8 +6,6 @@
 
       <loc>http://www.kitleoyun.com</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
       <changefreq>monthly</changefreq>
 
       <priority>0.8</priority>
@@ -18,8 +16,6 @@
 
       <loc>http://www.kitleoyun.com/games</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
       <changefreq>monthly</changefreq>
 
       <priority>0.8</priority>
@@ -28,9 +24,17 @@
 
    <url>
 
-      <loc>http://www.kitleoyun.com/tribes-of-isoterra</loc>
+      <loc>http://www.kitleoyun.com/news</loc>
 
-      <lastmod>2019-05-20</lastmod>
+      <changefreq>weekly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.kitleoyun.com/tribes-of-isoterra</loc>
 
       <changefreq>monthly</changefreq>
 
@@ -42,15 +46,11 @@
 
       <loc>http://www.kitleoyun.com/contact</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
    </url>
 
    <url>
 
       <loc>http://www.kitleoyun.com/about</loc>
-
-      <lastmod>2019-05-20</lastmod>
 
    </url>
 
@@ -58,17 +58,15 @@
 
       <loc>http://www.kitleoyun.com/support</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
    </url>
 
    <url>
 
       <loc>http://www.kitleoyun.com/terms</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
       <priority>0.1</priority>
+
+      <changefreq>yearly</changefreq>
 
    </url>
 
@@ -76,9 +74,9 @@
 
       <loc>http://www.kitleoyun.com/privacy</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
       <priority>0.1</priority>
+
+      <changefreq>yearly</changefreq>
 
    </url>
 
@@ -86,17 +84,15 @@
 
       <loc>http://www.kitleoyun.com/privacy/eu.html</loc>
 
-      <lastmod>2019-05-20</lastmod>
-
       <priority>0.1</priority>
+
+      <changefreq>yearly</changefreq>
 
    </url>
 
    <url>
 
       <loc>http://www.kitleoyun.com/cookies</loc>
-
-      <lastmod>2019-05-20</lastmod>
 
       <priority>0.1</priority>
 

@@ -40,8 +40,8 @@ body_id: about
 		<h2><img class='slash' style='margin-left:-47px;' src="/static/images/green_slash.png" />Our team </h2>
 		<br>
 		<div class='middle-text'>
-			We are a tiny yet distributed team of 3 developers<br>
-			and artists from around the world. Product<br>
+			We are a tiny team of 1 developer and a few<br>
+			part-time contributors from around the world. Product<br>
 			quality and resulting customer satisfaction is what<br>
 			matters most to us.
 		</div>
